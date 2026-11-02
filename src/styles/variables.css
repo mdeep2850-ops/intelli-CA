@@ -1,0 +1,179 @@
+:root,
+[data-theme='dark'] {
+  /* Colors - Backgrounds (Dark Charcoal Default) */
+  --color-bg-base: #0f1115; /* Deep charcoal */
+  --color-bg-surface: #1a1d24; /* Dark slate */
+  --color-bg-elevated: #242830;
+  
+  /* Colors - Primary */
+  --color-primary: #4f46e5; /* Sophisticated Indigo */
+  --color-primary-hover: #4338ca;
+  --color-primary-subtle: rgba(79, 70, 229, 0.15);
+  
+  /* Colors - Secondary */
+  --color-secondary: #7c3aed; /* Subtle Violet */
+  --color-secondary-hover: #6d28d9;
+  
+  /* Colors - States */
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+  --color-error-bg: rgba(239, 68, 68, 0.1);
+  
+  /* Colors - Text */
+  --color-text-primary: #f8fafc;
+  --color-text-secondary: #94a3b8;
+  --color-text-muted: #64748b;
+  --color-text-inverse: #0f1115;
+  
+  /* Colors - Border */
+  --color-border: #334155;
+  --color-border-light: #475569;
+
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -2px rgba(0, 0, 0, 0.25);
+  
+  /* Radii */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  
+  /* Transitions */
+  --transition-fast: 150ms ease-in-out;
+  --transition-base: 200ms ease-in-out;
+  
+  /* Spacing */
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-6: 1.5rem;
+  --spacing-8: 2rem;
+  --spacing-12: 3rem;
+  --spacing-16: 4rem;
+}
+
+[data-theme='light'] {
+  /* Colors - Backgrounds (Clean Professional Light) */
+  --color-bg-base: #f8fafc;
+  --color-bg-surface: #ffffff;
+  --color-bg-elevated: #f1f5f9;
+  
+  /* Colors - Primary */
+  --color-primary: #4338ca;
+  --color-primary-hover: #3730a3;
+  --color-primary-subtle: rgba(67, 56, 202, 0.1);
+  
+  /* Colors - Secondary */
+  --color-secondary: #6d28d9;
+  --color-secondary-hover: #5b21b6;
+  
+  /* Colors - States */
+  --color-success: #059669;
+  --color-warning: #d97706;
+  --color-error: #dc2626;
+  --color-error-bg: rgba(220, 38, 38, 0.08);
+  
+  /* Colors - Text */
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #475569;
+  --color-text-muted: #94a3b8;
+  --color-text-inverse: #ffffff;
+  
+  /* Colors - Border */
+  --color-border: #e2e8f0;
+  --color-border-light: #cbd5e1;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -1px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.03);
+}
+
+[data-theme='midnight'] {
+  /* Colors - Backgrounds (Midnight Deep Blue) */
+  --color-bg-base: #0a0e1a;
+  --color-bg-surface: #111827;
+  --color-bg-elevated: #1f293d;
+  
+  /* Colors - Primary */
+  --color-primary: #3b82f6;
+  --color-primary-hover: #2563eb;
+  --color-primary-subtle: rgba(59, 130, 246, 0.15);
+  
+  /* Colors - Secondary */
+  --color-secondary: #6366f1;
+  --color-secondary-hover: #4f46e5;
+  
+  /* Colors - States */
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-error: #f43f5e;
+  --color-error-bg: rgba(244, 63, 94, 0.12);
+  
+  /* Colors - Text */
+  --color-text-primary: #f1f5f9;
+  --color-text-secondary: #94a3b8;
+  --color-text-muted: #64748b;
+  --color-text-inverse: #0a0e1a;
+  
+  /* Colors - Border */
+  --color-border: #1e293b;
+  --color-border-light: #334155;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.25);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme='emerald'] {
+  /* Colors - Backgrounds (Fiscal Emerald & Dark Forest) */
+  --color-bg-base: #081410;
+  --color-bg-surface: #0f231c;
+  --color-bg-elevated: #163329;
+  
+  /* Colors - Primary */
+  --color-primary: #10b981;
+  --color-primary-hover: #059669;
+  --color-primary-subtle: rgba(16, 185, 129, 0.15);
+  
+  /* Colors - Secondary */
+  --color-secondary: #14b8a6;
+  --color-secondary-hover: #0d9488;
+  
+  /* Colors - States */
+  --color-success: #34d399;
+  --color-warning: #fbbf24;
+  --color-error: #f87171;
+  --color-error-bg: rgba(248, 113, 113, 0.12);
+  
+  /* Colors - Text */
+  --color-text-primary: #f2fbf7;
+  --color-text-secondary: #8dafa1;
+  --color-text-muted: #5e8474;
+  --color-text-inverse: #081410;
+  
+  /* Colors - Border */
+  --color-border: #1a4233;
+  --color-border-light: #285e4a;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --transition-fast: 0ms;
+    --transition-base: 0ms;
+  }
+}

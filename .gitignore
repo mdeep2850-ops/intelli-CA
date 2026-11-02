@@ -1,39 +1,24 @@
-# Secrets and Environment Variables
-.env
-.env.*
-!.env.example
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-venv/
-env/
-.pytest_cache/
-
-# Node / Frontend
-node_modules/
-frontend/dist/
-dist/
-dist-ssr/
+# Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Database and Data (Crucial for Local Privacy)
-*.db
-*.sqlite
-*.sqlite3
-sql_app.db
-backend/data/
-backend/uploads/
-backend/chroma/
+node_modules
+dist
+dist-ssr
+*.local
 
-# Editor / OS
-.vscode/
-.idea/
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-*.swp
-
-# Application specific
-sample_financials.pdf
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

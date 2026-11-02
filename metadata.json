@@ -1,0 +1,6 @@
+{
+  "name": "Intelli-CA",
+  "description": "Agentic AI platform for financial intelligence, document analysis, and deterministic financial calculations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
